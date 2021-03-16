@@ -1,70 +1,135 @@
-# Getting Started with Create React App
+# The tic-tac-toe game from React Tutorial
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a>
+    <img src="_README.md/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-In the project directory, you can run:
+  <h3 align="center">The tic-tac-toe game from React tutorial</h3>
 
-### `yarn start`
+  <p align="center">
+    A Tic-tac-toe with time travel
+    <br />
+    <br />
+  </p>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About the project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#running-code">Running Code</a>
+      <ul>
+        <li><a href="#first-time">First Time</a></li>
+        <li><a href="#running">Running</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="center">
+  <img src="https://github.com/MestreALMO/Tic-Tac-Toe-React-in-JS/blob/master/_README.md/app.gif?raw=true" />
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The tutorial used to make this code can be found here: [Tutorial](https://reactjs.org/tutorial/tutorial.html)
 
-### `yarn eject`
+<!-- GETTING STARTED -->
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+You can play the game with this code
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The things you need to install the software and how to install them
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* [Nodejs](https://nodejs.org/en/) - Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+* Chocolatey - Chocolatey is software management automation for Windows that wraps installers, executables, zips, and scripts into compiled packages.
+  * To install execute the codes with a terminal (ex: In Windows use PowerShell):
+    ```
+    Get-ExecutionPolicy
+    ```
+    ```
+    Set-ExecutionPolicy AllSigned
+    ```
+    ```
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+    ```
+    ```
+    choco
+    ```
+* Node.js, Yarn, Python2 e a JDK 8
+  ```
+  choco install -y nodejs-lts yarn python2 jdk8
+  ```
 
-## Learn More
+</br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Running Code
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Now the PC is ready, we can run the code.
 
-### Code Splitting
+</br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### First time
 
-### Analyzing the Bundle Size
+When running for the first time we need to run the following code in a terminal inside the project folder, so the project download the library that it uses
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+yarn
+```
 
-### Making a Progressive Web App
+</br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Running
 
-### Advanced Configuration
+In a terminal inside the project folder use the code:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+npm start
+```
 
-### Deployment
+With that the app will be running!!!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Usage
+
+Here is a gif image showing how it works:
+
+<p align="center">
+  <img src="https://github.com/MestreALMO/Tic-Tac-Toe-React-in-JS/blob/master/_README.md/app.gif?raw=true" />
+</p>
+
+</br>
+
+## Contact
+
+My Name: André Lusegardis Miranda de Oliveira
+
+  * lusegardis@gmail.com
+
+  * [LinkedIn](https://www.linkedin.com/in/andr%C3%A9-lusegardis/)
+
+  * [GitHub](https://github.com/MestreALMO)

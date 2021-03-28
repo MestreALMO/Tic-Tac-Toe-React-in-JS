@@ -50,7 +50,7 @@
 ## About The Project
 
 <p align="center">
-  <img src="https://github.com/MestreALMO/Tic-Tac-Toe-React-in-JS/blob/master/_README.md/app.gif?raw=true" />
+  <img src="_README.md/app.gif">
 </p>
 
 The tutorial used to make this code can be found here: [Tutorial](https://reactjs.org/tutorial/tutorial.html)
